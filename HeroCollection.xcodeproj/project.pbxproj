@@ -14,6 +14,7 @@
 		F7B9D992224223A200609296 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B9D98D224223A200609296 /* GameViewController.xib */; };
 		F7B9D993224223A200609296 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9D98F224223A200609296 /* GameOverView.swift */; };
 		F7B9D994224223A200609296 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B9D990224223A200609296 /* HeroView.swift */; };
+		F7B9D9962242400D00609296 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7B9D9952242400D00609296 /* BGM.mp3 */; };
 		F7F42CF62241F40400030905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F42CF52241F40400030905 /* AppDelegate.swift */; };
 		F7F42CF82241F40400030905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F42CF72241F40400030905 /* ViewController.swift */; };
 		F7F42CFB2241F40400030905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F42CF92241F40400030905 /* Main.storyboard */; };
@@ -22,7 +23,6 @@
 		F7F42D112241F9BB00030905 /* button_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7F42D0B2241F9BB00030905 /* button_click.mp3 */; };
 		F7F42D122241F9BB00030905 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F42D0C2241F9BB00030905 /* Music.m */; };
 		F7F42D132241F9BB00030905 /* SystemLanguageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F42D0D2241F9BB00030905 /* SystemLanguageClass.swift */; };
-		F7F42D142241F9BB00030905 /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F7F42D0E2241F9BB00030905 /* BGM.mp3 */; };
 		F7F42D152241F9BB00030905 /* merge.wav in Resources */ = {isa = PBXBuildFile; fileRef = F7F42D0F2241F9BB00030905 /* merge.wav */; };
 		F7F42D182241FA1D00030905 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F42D172241FA1D00030905 /* TipView.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +35,7 @@
 		F7B9D98E224223A200609296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GameViewController.xib; sourceTree = "<group>"; };
 		F7B9D98F224223A200609296 /* GameOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		F7B9D990224223A200609296 /* HeroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		F7B9D9952242400D00609296 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 		F7F42CF22241F40400030905 /* HeroCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F42CF52241F40400030905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F42CF72241F40400030905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		F7F42D0B2241F9BB00030905 /* button_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_click.mp3; sourceTree = "<group>"; };
 		F7F42D0C2241F9BB00030905 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
 		F7F42D0D2241F9BB00030905 /* SystemLanguageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLanguageClass.swift; sourceTree = "<group>"; };
-		F7F42D0E2241F9BB00030905 /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
 		F7F42D0F2241F9BB00030905 /* merge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = merge.wav; sourceTree = "<group>"; };
 		F7F42D172241FA1D00030905 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		F7F42D1922420FFD00030905 /* Objective-c-Swift-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objective-c-Swift-Bridge.h"; sourceTree = "<group>"; };
@@ -124,8 +124,8 @@
 				F7F42D0C2241F9BB00030905 /* Music.m */,
 				F7F42D0D2241F9BB00030905 /* SystemLanguageClass.swift */,
 				F7F42D0A2241F9BB00030905 /* EffectiveClass.swift */,
+				F7B9D9952242400D00609296 /* BGM.mp3 */,
 				F7F42D0B2241F9BB00030905 /* button_click.mp3 */,
-				F7F42D0E2241F9BB00030905 /* BGM.mp3 */,
 				F7F42D0F2241F9BB00030905 /* merge.wav */,
 			);
 			path = resource;
@@ -189,12 +189,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B9D9962242400D00609296 /* BGM.mp3 in Resources */,
 				F7B9D992224223A200609296 /* GameViewController.xib in Resources */,
 				F7F42D002241F40500030905 /* LaunchScreen.storyboard in Resources */,
 				F7F42CFB2241F40400030905 /* Main.storyboard in Resources */,
 				F7F42D152241F9BB00030905 /* merge.wav in Resources */,
 				F73571F422421C6A00DE792E /* SelectorViewController.xib in Resources */,
-				F7F42D142241F9BB00030905 /* BGM.mp3 in Resources */,
 				F73571EF224215A700DE792E /* Assets.xcassets in Resources */,
 				F7F42D112241F9BB00030905 /* button_click.mp3 in Resources */,
 			);
@@ -371,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS74538ABS;
 				INFOPLIST_FILE = HeroCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -390,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS74538ABS;
 				INFOPLIST_FILE = HeroCollection/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (

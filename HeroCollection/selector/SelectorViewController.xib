@@ -95,13 +95,13 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="dRx-at-ClC" secondAttribute="bottom" id="6dJ-Rl-Uqo"/>
+                <constraint firstItem="dRx-at-ClC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BbU-Lk-MNz"/>
                 <constraint firstItem="iGZ-J7-YAS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="DQr-tw-nxR"/>
-                <constraint firstItem="dRx-at-ClC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="WYY-Yb-ZxZ"/>
                 <constraint firstItem="dRx-at-ClC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="X5i-84-W9X"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iGZ-J7-YAS" secondAttribute="trailing" id="ioV-bg-rFs"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="iGZ-J7-YAS" secondAttribute="bottom" id="qXv-WU-WPS"/>
                 <constraint firstItem="iGZ-J7-YAS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="tkV-tl-ldh"/>
+                <constraint firstAttribute="bottom" secondItem="dRx-at-ClC" secondAttribute="bottom" id="uCJ-uH-n0Y"/>
                 <constraint firstAttribute="trailing" secondItem="dRx-at-ClC" secondAttribute="trailing" id="x53-J9-BEc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
